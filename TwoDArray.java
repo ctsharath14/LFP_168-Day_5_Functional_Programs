@@ -15,6 +15,7 @@ public class TwoDArray {
 		
 		for (i = 0; i < rows; i++) {
 			for (j = 0; j < columns; j++) { 
+				System.out.print("["+i+"]["+j+"] : ");
 				arr[i][j] = sc.nextInt();
 			}
 		}
